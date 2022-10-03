@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Primer Challenge Alura - Oracle ONE</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+	</head>
+
+	<body>
+			<header>
+				<div>
+					<img src="./imagenes/Logo.png">
+				</div>
+				
+				<div>
+					<h1 class="title">EL ENCRIPTADOR</h1>
+				</div>
+			
+			</header>
+			
+			<main>
+
+				<section class="area1">
+
+					<textarea name="area-texto" id="area-texto" placeholder="Ingrese un texto"></textarea>
+
+					<div class="botones">
+						<input type="button" name="botonEncriptador" value="Encriptar" id="botonEncriptador" class="boton">
+						<input type="button" name="botonDesencriptador" value="Desencriptar" id="botonDesencriptador" class="boton">
+					</div>
+
+					<div class="areaAdvertencia">
+						<p class="advertencia"> &#10069; Solo letras minúsculas y sin acentos</p>
+					</div>
+
+				</section>
+
+				<section class="area2">
+
+					<textarea name="area-encriptada" id="area-encriptada" placeholder="Aquí aparecerá encriptado el texto"></textarea>
+					<input type="button" name="botonCopiar" value="Copiar texto" id="botonCopiar" class="boton">
+
+				</section>
+
+			</main>
+		<script src="script.js"></script>
+	</body>
+</html>
